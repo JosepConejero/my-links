@@ -1,8 +1,8 @@
-import React from "react";
 import "./App.css";
+import { ALink } from "./components/ALink";
 import provisionalLinks from "./data/provisional-links";
-import { MyLink } from "./components/MyLink";
 import { uniqueKey } from "./helpers/uniqueKey";
+import { MyLink } from "./react-app-env";
 
 /* <a
           className="App-link"
@@ -14,16 +14,23 @@ import { uniqueKey } from "./helpers/uniqueKey";
         </a> */
 
 function App() {
+  const getLinks = (): MyLink[] => {
+    return provisionalLinks;
+  };
+  const links = getLinks();
+
   return (
     <>
-      <header>
-        <h1>LINKS</h1>
-      </header>
-      <main>
-        {provisionalLinks.map((link) => (
-          <MyLink key={uniqueKey()} linkName={link.linkName} adress={link.address} />
-        ))}
-      </main>
+      <div>
+        <header>
+          <h1>LINKS</h1>
+        </header>
+        <main>
+          {links.map((link) => (
+            <ALink key={uniqueKey()} linkName={link.linkName} address={link.address} order={link.order} folder={link.folder} />
+          ))}
+        </main>
+      </div>
     </>
   );
 }
