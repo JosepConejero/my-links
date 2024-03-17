@@ -1,5 +1,8 @@
-import React from "react";
 import "./App.css";
+import { ALink } from "./components/ALink";
+import provisionalLinks from "./data/provisional-links";
+import { uniqueKey } from "./helpers/uniqueKey";
+import { MyLink } from "./react-app-env";
 
 /* <a
           className="App-link"
@@ -11,29 +14,23 @@ import "./App.css";
         </a> */
 
 function App() {
+  const getLinks = (): MyLink[] => {
+    return provisionalLinks;
+  };
+  const links = getLinks();
+
   return (
     <>
-      <header>
-        <h1>LINKS</h1>
-      </header>
-      <main>
-        <a
-          //className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          REACT
-        </a>
-        <a
-          //className="App-link"
-          href="https://create-react-app.dev/docs/adding-typescript/"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          REACT
-        </a>
-      </main>
+      <div>
+        <header>
+          <h1>LINKS</h1>
+        </header>
+        <main>
+          {links.map((link) => (
+            <ALink key={uniqueKey()} linkName={link.linkName} address={link.address} order={link.order} folder={link.folder} />
+          ))}
+        </main>
+      </div>
     </>
   );
 }
