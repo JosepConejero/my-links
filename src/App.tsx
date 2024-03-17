@@ -1,5 +1,8 @@
 import React from "react";
 import "./App.css";
+import provisionalLinks from "./data/provisional-links";
+import { MyLink } from "./components/MyLink";
+import { uniqueKey } from "./helpers/uniqueKey";
 
 /* <a
           className="App-link"
@@ -17,22 +20,9 @@ function App() {
         <h1>LINKS</h1>
       </header>
       <main>
-        <a
-          //className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          REACT
-        </a>
-        <a
-          //className="App-link"
-          href="https://create-react-app.dev/docs/adding-typescript/"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          REACT
-        </a>
+        {provisionalLinks.map((link) => (
+          <MyLink key={uniqueKey()} linkName={link.linkName} adress={link.address} />
+        ))}
       </main>
     </>
   );
