@@ -21,7 +21,7 @@ function App() {
 
   return (
     <>
-      <div>
+      <div className="main-box">
         <header>
           <h1>LINKS</h1>
         </header>
