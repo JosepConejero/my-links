@@ -3,6 +3,7 @@ import { ALink } from "./components/ALink";
 import provisionalLinks from "./data/provisional-links";
 import { uniqueKey } from "./helpers/uniqueKey";
 import { MyLink } from "./react-app-env";
+import { ProvisonalQuestions } from "./components/ProvisonalQuestions";
 
 /* <a
           className="App-link"
@@ -30,6 +31,9 @@ function App() {
             <ALink key={uniqueKey()} linkName={link.linkName} address={link.address} order={link.order} folder={link.folder} />
           ))}
         </main>
+        <footer>
+          <ProvisonalQuestions />
+        </footer>
       </div>
     </>
   );

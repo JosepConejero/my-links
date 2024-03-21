@@ -12,6 +12,7 @@ export const provisionalLinks: MyLink[] = [
   { address: "https://developer.mozilla.org/en-US/docs/Web/JavaScript", linkName: "Javascript MDN", order: 1, folder: "ROOT" },
   { address: "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Language_overview", linkName: "Javascript overview", order: 1, folder: "ROOT" },
   { address: "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Working_with_objects", linkName: "Javascript objects", order: 1, folder: "ROOT" },
+  { address: "", linkName: "Javascript promises", order: 1, folder: "ROOT" },
   { address: "https://developer.mozilla.org/en-US/docs/Learn/CSS", linkName: "CSS MDN", order: 1, folder: "ROOT" },
   { address: "https://lenguajecss.com/css/#introduccion", linkName: "CSS", order: 1, folder: "ROOT" },
   { address: "https://www.notion.so/PROGRAMMING-4d871bcb4af746019192b643380a55de", linkName: "Notion", order: 1, folder: "ROOT" },
