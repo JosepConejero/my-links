@@ -40,6 +40,18 @@ header {
   }
 }
 
+.ul-class{
+  padding-left: 30px;
+}
+
+h3{
+  margin-top: 15px;
+  color: green;
+}
+
+li {
+  color: blue;
+}
 
 /* .App {
   text-align: center;
