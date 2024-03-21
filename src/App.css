@@ -23,6 +23,7 @@ header {
 .main-box {
   margin: auto;
   margin-top: 5px;
+  margin-bottom: 5px;
   border: 1px solid black;
   border-radius: 5px;
   padding: 5px;
@@ -51,6 +52,11 @@ h3{
 
 li {
   color: blue;
+}
+
+.hidden-footer {
+  visibility: hidden;
+  display: none;
 }
 
 /* .App {
