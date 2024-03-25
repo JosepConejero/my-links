@@ -22,7 +22,11 @@ function App() {
     <>
       <div className="main-box">
         <header>
-          <h1 onClick={handleButton}>LINKS</h1>
+          <h1 className="title" onClick={handleButton}>
+            LINKS
+          </h1>
+          <button>1</button>
+          <button>2</button>
         </header>
         <main>
           {links.map((link) => (
