@@ -1,6 +1,6 @@
 import { MyLink } from "../react-app-env";
 
-export const provisionalLinks: MyLink[] = [
+export const provisionalPrgLinks: MyLink[] = [
   // { address: "", linkName: "", order: 1, folder: "ROOT" },
   { address: "https://google.es", linkName: "Google", order: 1, folder: "ROOT" },
   { address: "https://guardias-invited.netlify.app/guardias", linkName: "Guardias invited", order: 1, folder: "ROOT" },
@@ -27,4 +27,4 @@ export const provisionalLinks: MyLink[] = [
   { address: "https://www.typescriptlang.org/docs/handbook/2/everyday-types.html", linkName: "TS", order: 1, folder: "ROOT" },
 ];
 
-export default provisionalLinks;
+export default provisionalPrgLinks;
