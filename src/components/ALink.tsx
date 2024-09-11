@@ -1,4 +1,5 @@
 import { MyLink } from "../react-app-env";
+import "./ALink.css";
 
 export const ALink = ({ linkName, address, order, folder }: MyLink): JSX.Element => {
   return (
