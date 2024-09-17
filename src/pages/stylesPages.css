@@ -1,7 +1,10 @@
 .prg-links, .weather-links, .main-links {
-    margin-top: 10px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 
+.open-all-links-button{
+  margin-bottom: 0.5em;
+}
