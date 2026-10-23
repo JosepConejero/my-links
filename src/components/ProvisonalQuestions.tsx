@@ -6,7 +6,7 @@ export const ProvisonalQuestions = () => {
     </div>
   );
 
-  return (
+  /* return (
     <div>
       <ul className="ul-class">
         <h3>PROYECTOS PERSONALES</h3>
@@ -72,5 +72,5 @@ export const ProvisonalQuestions = () => {
         <li>Qué le he parecido, si encajo; y si no, por qué no</li>
       </ul>
     </div>
-  );
+  ); */
 };

@@ -16,7 +16,7 @@ export const provisionalWeatherLinks: MyLink[] = [
   { address: "https://www.tiempo.com/barcelona.htm", linkName: "Tiempo", order: 1, folder: "ROOT" },
   { address: "https://www.tiempo.com/barcelona/por-horas", linkName: "Tiempo (por horas)", order: 1, folder: "ROOT" },
   { address: "https://www.meteosat.com/tiempo/barcelona/", linkName: "METEOSAT", order: 1, folder: "ROOT" },
-  { address: "http://www.eltiempo.tv/Barcelona/Barcelona.html", linkName: "El tiempo TV", order: 1, folder: "ROOT" },
+  /* NO FUNCIONA - LINK ROTO { address: "http://www.eltiempo.tv/Barcelona/Barcelona.html", linkName: "El tiempo TV", order: 1, folder: "ROOT" }, */
   { address: "https://www.rtve.es/eltiempo/localidades/barcelona/12162.shtml", linkName: "RTVE", order: 1, folder: "ROOT" },
   { address: "https://www.meteo.cat/prediccio/municipal/080193", linkName: "Meteo Cat", order: 1, folder: "ROOT" },
 ];
