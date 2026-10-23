@@ -12,6 +12,7 @@ export const provisionalCatalaLinks: MyLink[] = [
   { address: "https://www.esadir.cat/", linkName: "És a dir", order: 1, folder: "ROOT" },
   { address: "https://geiec.iec.cat/sumari", linkName: "Gramàtica essencial de la Llengua catalana", order: 1, folder: "ROOT" },
   { address: "https://www.diccionari.cat/GDLC/decisio", linkName: "Gran diccionari de la llengua catalana", order: 1, folder: "ROOT" },
+  { address: "https://docs.google.com/document/d/15U_EAByNlDlAUKvUZgfnmdbj2XkEsZrfMx9u2Sou8Zg/edit?tab=t.0", linkName: "EL MEU VOCABULARI (per repassar)", order: 1, folder: "ROOT" },
 ];
 
 export default provisionalCatalaLinks;
