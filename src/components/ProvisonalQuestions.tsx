@@ -1,6 +1,13 @@
 export const ProvisonalQuestions = () => {
   return (
     <div>
+      <p className="catala-links"><p>He decidit de moment treure aquesta pàgina, què us sembla?</p></p>
+
+    </div>
+  );
+
+  return (
+    <div>
       <ul className="ul-class">
         <h3>PROYECTOS PERSONALES</h3>
         <li>Me hago mis propias herramientas (android, etc.)</li>
