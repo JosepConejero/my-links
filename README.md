@@ -10,3 +10,5 @@ Right sidebar don't have to be showed
 ### Pendientes de resolver
 
 - Que cuando abra una ventana (o todas las ventanas de Weather), vuelva a la pestaña original
+
+- Vull que s'afegisca un botó pel català
