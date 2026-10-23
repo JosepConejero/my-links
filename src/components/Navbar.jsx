@@ -7,6 +7,7 @@ export const Navbar = () => {
       <main className="navbar-up">
         <Link to="/">MAIN LINKS</Link>
         <Link to="/prg-links">PRG</Link>
+        <Link to="/catala-links">CATALÀ</Link>
         <Link to="/weather-links">WEATHER</Link>
         <Link to="/other-info">OTHER INFO</Link>
       </main>
