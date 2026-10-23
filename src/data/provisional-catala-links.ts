@@ -6,6 +6,12 @@ export const provisionalCatalaLinks: MyLink[] = [
   { address: "https://www.softcatala.org/corrector/", linkName: "Soft Català corrector", order: 1, folder: "ROOT" },
   { address: "https://dcvb.iec.cat/", linkName: "Diccionari IEC", order: 1, folder: "ROOT" },
   { address: "https://dlc.iec.cat/", linkName: "Diccionari DIEC2", order: 1, folder: "ROOT" },
+  { address: "https://aplicacions.llengua.gencat.cat/llc/AppJava/index.html", linkName: "Optimot", order: 1, folder: "ROOT" },
+  { address: "https://www.diccionaris.cat/index.php/", linkName: "Diccionaris.cat", order: 1, folder: "ROOT" },
+  { address: "https://www.cpnl.cat/gramatica/7/1-l-article/nivell/tots", linkName: "CPNL Gramàtica", order: 1, folder: "ROOT" },
+  { address: "https://www.esadir.cat/", linkName: "És a dir", order: 1, folder: "ROOT" },
+  { address: "https://geiec.iec.cat/sumari", linkName: "Gramàtica essencial de la Llengua catalana", order: 1, folder: "ROOT" },
+  { address: "https://www.diccionari.cat/GDLC/decisio", linkName: "Gran diccionari de la llengua catalana", order: 1, folder: "ROOT" },
 ];
 
 export default provisionalCatalaLinks;

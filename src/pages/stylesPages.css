@@ -1,7 +1,7 @@
 .prg-links,
 .weather-links,
 .main-links,
-catala-links {
+.catala-links {
   margin-top: 10px;
   display: flex;
   flex-direction: column;
