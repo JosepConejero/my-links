@@ -3,6 +3,7 @@ import { MyLink } from "../react-app-env";
 export const provisionalPrgLinks: MyLink[] = [
   // { address: "", linkName: "", order: 1, folder: "ROOT" },
   { address: "https://guardias-invited.netlify.app/guardias", linkName: "Guardias invited", order: 1, folder: "ROOT" },
+  { address: "https://main--mpe-agenda-tecnicos.netlify.app/", linkName: "Calendario de guardias y formaciones", order: 1, folder: "ROOT" },
   { address: "https://learning-helper-app.netlify.app/home", linkName: "Learning helper", order: 1, folder: "ROOT" },
   { address: "https://react.dev/learn", linkName: "React overview", order: 1, folder: "ROOT" },
   { address: "https://react.dev/reference/react/hooks", linkName: "React hooks", order: 1, folder: "ROOT" },
@@ -24,6 +25,8 @@ export const provisionalPrgLinks: MyLink[] = [
   { address: "https://www.notion.so/PROGRAMMING-4d871bcb4af746019192b643380a55de", linkName: "Notion", order: 1, folder: "ROOT" },
   { address: "https://react.dev/learn/typescript", linkName: "TS React", order: 1, folder: "ROOT" },
   { address: "https://www.typescriptlang.org/docs/handbook/2/everyday-types.html", linkName: "TS", order: 1, folder: "ROOT" },
+  { address: "https://stackblitz.com/", linkName: "STACKBLITZ", order: 1, folder: "ROOT" },
+  { address: "https://codepen.io/", linkName: "CODEPEN.IO", order: 1, folder: "ROOT" },
 ];
 
 export default provisionalPrgLinks;
