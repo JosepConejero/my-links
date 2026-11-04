@@ -18,6 +18,9 @@ export const provisionalMainLinks: MyLink[] = [
   { address: "https://mail.proton.me/u/3/inbox", linkName: "Proton", order: 1, folder: "ROOT" },
   { address: "https://www.infojobs.net/candidate/candidate-login/candidate-login.xhtml?goesTo=/candidate/my-infojobs.xhtml?dgv=8733284883307804630", linkName: "INFOJOBS", order: 1, folder: "ROOT" },
   { address: "https://www.linkedin.com/in/josep-conejero/", linkName: "LINKEDIN", order: 1, folder: "ROOT" },
+  { address: "https://drive.google.com/drive/home", linkName: "DRIVE", order: 1, folder: "ROOT" },
+  { address: "https://docs.google.com/document/d/12SeD3WtKQB2OkaAjVhN8kju4rD234TuLIu30o8j9v8w/edit?tab=t.0", linkName: "TAREAS TO DO", order: 1, folder: "ROOT" },
+  { address: "https://docs.google.com/document/d/1H-0BCS4NaLiTbdj-BxTgjYAsp3LBgjOU5N9PPpNXWog/edit?tab=t.0", linkName: "PELIS VISTAS", order: 1, folder: "ROOT" },
 ];
 
 export default provisionalMainLinks;
