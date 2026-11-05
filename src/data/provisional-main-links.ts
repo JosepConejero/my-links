@@ -9,6 +9,7 @@ export const provisionalMainLinks: MyLink[] = [
   { address: "https://www.subdivx.com/", linkName: "SUBDIVX", order: 1, folder: "ROOT" },
   { address: "https://dle.rae.es/", linkName: "RAE", order: 1, folder: "ROOT" },
   { address: "https://www.wordreference.com/es/translation.asp?tranword=&dict=enes&B10=Search", linkName: "WORD REFERENCE", order: 1, folder: "ROOT" },
+  { address: "https://www.deepl.com/es/translator?utm_source=lingueees&utm_medium=linguee&utm_content=header_translator", linkName: "DEEPL", order: 1, folder: "ROOT" },
   { address: "https://www.google.es/maps/@41.4318592,2.195456,14z?hl=es&entry=ttu&g_ep=EgoyMDI0MDkxMS4wIKXMDSoASAFQAw%3D%3D", linkName: "GOOGLE MAPS", order: 1, folder: "ROOT" },
   { address: "https://www.amazon.es/cart?ref_=sw_gtc", linkName: "AMAZON", order: 1, folder: "ROOT" },
   { address: "https://chatgpt.com/", linkName: "ChatGPT", order: 1, folder: "ROOT" },
