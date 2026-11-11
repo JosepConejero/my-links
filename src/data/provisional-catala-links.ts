@@ -2,6 +2,7 @@ import { MyLink } from "../react-app-env";
 
 export const provisionalCatalaLinks: MyLink[] = [
   // { address: "", linkName: "", order: 1, folder: "ROOT" },
+  { address: "https://docs.google.com/document/d/15U_EAByNlDlAUKvUZgfnmdbj2XkEsZrfMx9u2Sou8Zg/edit?tab=t.0", linkName: "EL MEU VOCABULARI (per repassar)", order: 1, folder: "ROOT" },
   { address: "https://www.softcatala.org/traductor/", linkName: "Soft Català traductor", order: 1, folder: "ROOT" },
   { address: "https://www.softcatala.org/corrector/", linkName: "Soft Català corrector", order: 1, folder: "ROOT" },
   { address: "https://dcvb.iec.cat/", linkName: "Diccionari IEC", order: 1, folder: "ROOT" },
@@ -19,6 +20,7 @@ export const provisionalCatalaLinks: MyLink[] = [
   { address: "https://elrefranyer.com/", linkName: "EL REFRANYER", order: 1, folder: "ROOT" },
   { address: "https://ca.glosbe.com/", linkName: "DICCIONARI GLOSBE", order: 1, folder: "ROOT" },
   { address: "https://www.enciclopedia.cat/", linkName: "ENCICLOPÈDIA CATALANA", order: 1, folder: "ROOT" },
+  { address: "https://elcatalacomcal.blogspot.com/2012/06/dites-i-expressions-catalanes-que-cal.html", linkName: "Dites i expressions catalanes", order: 1, folder: "ROOT" },
   { address: "https://www.elnacional.cat/", linkName: "articles El Nacional", order: 1, folder: "ROOT" },
   { address: "https://www.elnacional.cat/oneconomia/ca", linkName: "articles On Economia", order: 1, folder: "ROOT" },
   { address: "https://www.nuvol.com/", linkName: "articles El núvol", order: 1, folder: "ROOT" },
@@ -32,8 +34,6 @@ export const provisionalCatalaLinks: MyLink[] = [
   { address: "https://www.timeout.cat/", linkName: "articles Timeout", order: 1, folder: "ROOT" },
   { address: "https://www.altaveu.com/", linkName: "articles Altaveu", order: 1, folder: "ROOT" },
   { address: "https://naciodigital.cat/", linkName: "articles Nació Digital", order: 1, folder: "ROOT" },
-  { address: "https://elcatalacomcal.blogspot.com/2012/06/dites-i-expressions-catalanes-que-cal.html", linkName: "Dites i expressions catalanes", order: 1, folder: "ROOT" },
-  { address: "https://docs.google.com/document/d/15U_EAByNlDlAUKvUZgfnmdbj2XkEsZrfMx9u2Sou8Zg/edit?tab=t.0", linkName: "EL MEU VOCABULARI (per repassar)", order: 1, folder: "ROOT" },
 ];
 
 export default provisionalCatalaLinks;
