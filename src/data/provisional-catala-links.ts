@@ -18,6 +18,7 @@ export const provisionalCatalaLinks: MyLink[] = [
   { address: "https://rodamots.cat/", linkName: "RODAMOTS", order: 1, folder: "ROOT" },
   { address: "https://elrefranyer.com/", linkName: "EL REFRANYER", order: 1, folder: "ROOT" },
   { address: "https://ca.glosbe.com/", linkName: "DICCIONARI GLOSBE", order: 1, folder: "ROOT" },
+  { address: "https://www.enciclopedia.cat/", linkName: "ENCICLOPÈDIA CATALANA", order: 1, folder: "ROOT" },
   { address: "https://docs.google.com/document/d/15U_EAByNlDlAUKvUZgfnmdbj2XkEsZrfMx9u2Sou8Zg/edit?tab=t.0", linkName: "EL MEU VOCABULARI (per repassar)", order: 1, folder: "ROOT" },
 ];
 
