@@ -3,6 +3,7 @@ import { MyLink } from "../react-app-env";
 export const provisionalCatalaLinks: MyLink[] = [
   // { address: "", linkName: "", order: 1, folder: "ROOT" },
   { address: "https://docs.google.com/document/d/15U_EAByNlDlAUKvUZgfnmdbj2XkEsZrfMx9u2Sou8Zg/edit?tab=t.0", linkName: "EL MEU VOCABULARI (per repassar)", order: 1, folder: "ROOT" },
+  { address: "https://catalanofilia.netlify.app/traduccio", linkName: "CATALANOFILIA", order: 1, folder: "ROOT" },
   { address: "https://www.softcatala.org/traductor/", linkName: "Soft Català traductor", order: 1, folder: "ROOT" },
   { address: "https://www.softcatala.org/corrector/", linkName: "Soft Català corrector", order: 1, folder: "ROOT" },
   { address: "https://dcvb.iec.cat/", linkName: "Diccionari IEC", order: 1, folder: "ROOT" },
