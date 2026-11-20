@@ -3,7 +3,7 @@ import { MyLink } from "../react-app-env";
 export const provisionalPrgLinks: MyLink[] = [
   // { address: "", linkName: "", order: 1, folder: "ROOT" },
   { address: "https://guardias-invited.netlify.app/guardias", linkName: "Guardias invited", order: 1, folder: "ROOT" },
-  { address: "https://main--mpe-agenda-tecnicos.netlify.app/", linkName: "Calendario de guardias y formaciones", order: 1, folder: "ROOT" },
+  //{ address: "https://main--mpe-agenda-tecnicos.netlify.app/", linkName: "Calendario de guardias y formaciones", order: 1, folder: "ROOT" },
   { address: "https://learning-helper-app.netlify.app/home", linkName: "Learning helper", order: 1, folder: "ROOT" },
   { address: "https://react.dev/learn", linkName: "React overview", order: 1, folder: "ROOT" },
   { address: "https://react.dev/reference/react/hooks", linkName: "React hooks", order: 1, folder: "ROOT" },

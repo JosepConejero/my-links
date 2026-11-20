@@ -4,6 +4,7 @@ import { OtherInfoPage } from "../pages/OtherInfoPage";
 import { PrgLinksPage } from "../pages/PrgLinksPage";
 import { WeatherLinksPage } from "../pages/WeatherLinksPage";
 import { CatalaLinksPage } from "../pages/CatalaLinksPage";
+import { MpeLinksPage } from "../pages/MpeLinksPage";
 
 export const AppRouter = () => {
   return (
@@ -11,6 +12,7 @@ export const AppRouter = () => {
       <Routes>
         <Route path="/" element={<MainLinksPage />} />
         <Route path="/other-info" element={<OtherInfoPage />} />
+        <Route path="/mpe-links" element={<MpeLinksPage />} />
         <Route path="/prg-links" element={<PrgLinksPage />} />
         <Route path="/catala-links" element={<CatalaLinksPage />} />
         <Route path="/weather-links" element={<WeatherLinksPage />} />
